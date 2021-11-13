@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sam/Projects/IC_test_5_PageObject/IC_test_5_PageObject/IC_test_5_PageObject.csproj": {}
+    "/Users/sam/IC_Test_PageObject/IC_test_5_PageObject/IC_test_5_PageObject.csproj": {}
   },
   "projects": {
-    "/Users/sam/Projects/IC_test_5_PageObject/IC_test_5_PageObject/IC_test_5_PageObject.csproj": {
+    "/Users/sam/IC_Test_PageObject/IC_test_5_PageObject/IC_test_5_PageObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sam/Projects/IC_test_5_PageObject/IC_test_5_PageObject/IC_test_5_PageObject.csproj",
+        "projectUniqueName": "/Users/sam/IC_Test_PageObject/IC_test_5_PageObject/IC_test_5_PageObject.csproj",
         "projectName": "IC_test_5_PageObject",
-        "projectPath": "/Users/sam/Projects/IC_test_5_PageObject/IC_test_5_PageObject/IC_test_5_PageObject.csproj",
+        "projectPath": "/Users/sam/IC_Test_PageObject/IC_test_5_PageObject/IC_test_5_PageObject.csproj",
         "packagesPath": "/Users/sam/.nuget/packages/",
-        "outputPath": "/Users/sam/Projects/IC_test_5_PageObject/IC_test_5_PageObject/obj/",
+        "outputPath": "/Users/sam/IC_Test_PageObject/IC_test_5_PageObject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sam/.config/NuGet/NuGet.Config"
@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
             "Microsoft.NETCore.App": {
               "target": "Package",
               "version": "[2.2.8, )"

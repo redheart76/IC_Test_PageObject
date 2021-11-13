@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YcE5ruyYurKmnsJfmMztinvEmFe8HFtadZTSkD5fHVqKeG3LiZ2oLSZ48tDFzvw+pZhjaBq73imsPzZEBbfV4w==",
+  "dgSpecHash": "V6qqkwYS6XzNPqKyB7pSQsqLYY6OqyWlUzr6Yo1lxvbSH2+bUu+ExhkNnSkp/15hRcMuM7m+WT2uWWzlFGLfPA==",
   "success": true,
-  "projectFilePath": "/Users/sam/Projects/IC_test_5_PageObject/IC_test_5_PageObject/IC_test_5_PageObject.csproj",
+  "projectFilePath": "/Users/sam/IC_Test_PageObject/IC_test_5_PageObject/IC_test_5_PageObject.csproj",
   "expectedPackageFiles": [
+    "/Users/sam/.nuget/packages/dotnetseleniumextras.waithelpers/3.11.0/dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "/Users/sam/.nuget/packages/microsoft.netcore.app/2.2.8/microsoft.netcore.app.2.2.8.nupkg.sha512",
     "/Users/sam/.nuget/packages/microsoft.netcore.dotnetapphost/2.2.8/microsoft.netcore.dotnetapphost.2.2.8.nupkg.sha512",
     "/Users/sam/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.2.8/microsoft.netcore.dotnethostpolicy.2.2.8.nupkg.sha512",
