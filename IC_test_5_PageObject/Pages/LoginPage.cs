@@ -1,4 +1,5 @@
 ﻿using System;
+using IC_test_5_PageObject.Utilities;
 using OpenQA.Selenium;
 
 namespace IC_test_5_PageObject
@@ -9,6 +10,8 @@ namespace IC_test_5_PageObject
         {
 
             driver.Url = "http://horse.industryconnect.io/Account/Login?ReturnUrl=%2f"; //Launch Turnup
+
+            Wait.WaitToBeClickable(driver, "Id", "UserName", 2); 
 
             IWebElement username = driver.FindElement(By.Id("UserName"));
             username.SendKeys("hari"); //Input valid username

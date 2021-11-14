@@ -14,6 +14,9 @@
     <None Remove="Tests\" />
     <None Remove="Utilities\" />
     <None Remove="DotNetSeleniumExtras.WaitHelpers" />
+    <None Remove="NUnit" />
+    <None Remove="NUnit3TestAdapter" />
+    <None Remove="Microsoft.NET.Test.Sdk" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Selenium.WebDriver" Version="4.0.1" />
@@ -21,6 +24,9 @@
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="95.0.4638.6900" />
     <PackageReference Include="Microsoft.NETCore.App" Version="2.2.8" />
     <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.1.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />

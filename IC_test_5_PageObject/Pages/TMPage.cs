@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using IC_test_5_PageObject.Utilities;
 using OpenQA.Selenium;
 
 namespace IC_test_5_PageObject.Pages
@@ -30,7 +31,7 @@ namespace IC_test_5_PageObject.Pages
 
             IWebElement saveBTN = driver.FindElement(By.Id("SaveButton"));
             saveBTN.Click();//Save new 
-            Thread.Sleep(2000);
+            Wait.WaitToBeVisible(driver, "Xpath", "//*[@id='container']/p/a", 2);
         }
         public void EditTm(IWebDriver driver)
         {
