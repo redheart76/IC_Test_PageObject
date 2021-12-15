@@ -17,11 +17,17 @@
     <None Remove="NUnit" />
     <None Remove="NUnit3TestAdapter" />
     <None Remove="Microsoft.NET.Test.Sdk" />
+    <None Remove="SpecFlow" />
+    <None Remove="SpecFlow.NUnit" />
+    <None Remove="Gherkin" />
+    <None Remove="Cucumber.Messages" />
+    <None Remove="SpecRun.Runner" />
+    <None Remove="FluentAssertions" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Selenium.WebDriver" Version="4.0.1" />
-    <PackageReference Include="Selenium.Support" Version="4.0.1" />
-    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="95.0.4638.6900" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.1.0" />
+    <PackageReference Include="Selenium.Support" Version="4.1.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="96.0.4664.4500" />
     <PackageReference Include="Microsoft.NETCore.App" Version="2.2.8" />
     <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
